@@ -27,7 +27,8 @@ Data Management: Compiles video metadata into a structured dataset and exports i
 # Example Usage
 To use this script, ensure you have Python installed along with the required dependencies listed in requirements.txt. Use your actual Google API key.
 
-The outputs are mentioned in the new_result.png and new_result1.png ( for the cases where the input is a valid video link and invalid video link)
+The outputs are mentioned in the new_result.png (for the case where the input is a valid video link )
+and pic11.png, rectification.png (for the case where the input is an invalid video link from the ChatGPT search)
 
 # Acknowledgments
 This project utilizes the Google API and Hugging Face Transformers library.
