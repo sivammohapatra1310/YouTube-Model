@@ -27,14 +27,8 @@ Data Management: Compiles video metadata into a structured dataset and exports i
 # Example Usage
 To use this script, ensure you have Python installed along with the required dependencies listed in requirements.txt. Use your actual Google API key.
 
+The outputs are mentioned in the new_result.png and new_result1.png ( for the cases where the input is a valid video link and invalid video link)
 
-youtube_url = "https://www.youtube.com/watch?v=mfKWz_i8jE0&list=PLpzy7FIRqpGD0kxI48v8QEVVZd744Phi4"
-main(youtube_url)
-Installation
-Clone the repository:
-Install dependencies:
-
-
-Acknowledgments
+# Acknowledgments
 This project utilizes the Google API and Hugging Face Transformers library.
 Inspired by the need for enhanced educational content delivery through automated video recommendation systems.
