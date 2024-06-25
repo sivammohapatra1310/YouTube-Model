@@ -2,11 +2,11 @@
 
 # Why this model?
 * Suppose you want to study a particular topic.
-* You go to ChatGPT and ask it "Give me a youtube video on (topic)"
+* You go to ChatGPT and ask it "Give me a youtube video on a certain topic"
 * Surprisingly, the output given by ChatGPT, or many other AI chatbots are outdated.
-* The youtube video link doesn't exist.
+* The youtube video link doesn't exist in many cases.
 * This model primarily checks if a youtube link is available or not using Google API and Python.
-* If the video is unavailable, this uses pretrained LLMs like GPT2 model from transformers library to give relevant data.
+* If the video is unavailable, this uses pretrained LLMs like GPT2 model from transformers library to fetch relevant data.
   
 # Description
 
